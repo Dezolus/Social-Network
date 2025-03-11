@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS post (
+    id BIGINT PRIMARY KEY NOT NULL,
+    user_id BIGINT NOT NULL,
+    content VARCHAR(500) NOT NULL,
+    created_at TIMESTAMPTZ NOT NULL
+)

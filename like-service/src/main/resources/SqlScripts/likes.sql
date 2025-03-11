@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS likes(
+    id BIGINT PRIMARY KEY NOT NULL,
+    user_id BIGINT NOT NULL,
+    post_id BIGINT NOT NULL,
+    comment_id BIGINT,
+    created_at TIMESTAMPTZ NOT NULL
+)
